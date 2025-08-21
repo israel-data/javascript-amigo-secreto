@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<!-- 
+Autor: -工丂尺闩㠪㇄ ᗪ闩ㄒ闩-
+Creado: Agosto 2025.
+Versión: 1.0.0
+Nombre: Adivinar número secreto.
+Descargado de: https://github.com/israel-data
+ⓘ-->
+<!--Contener principal de datos y metadatos para los motores de busqueda de la página HTML. ⓘ-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Desafio amigo secreto"/>
+    <meta name="keywords" content="JavaScript, Html, CSS"/>
+    <meta name="author" content="-工丂尺闩㠪㇄ ᗪ闩ㄒ闩-">
+    <meta name="copyright" content="-工丂尺闩㠪㇄ ᗪ闩ㄒ闩-" />
+    <meta http-equiv="cache-control" content="no-cache"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Lamar al archivo de stilos CSS. ⓘ-->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;400;700;900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <!--Titulo de la Pagina. ⓘ-->
+    <title>Amigo Secreto</title>
+</head>
+<!--Todo lo visible para el usuario ⓘ-->
+<body>
+    <!--Etiqueta definir el contenido principal del HTML. ⓘ-->
+    <main class="main-content">
+        <!--Etiqueta definir el encabezado principal o seccion principal. ⓘ-->
+        <header class="header-banner">
+            <!--Etiqueta de encabezado 1. ⓘ-->
+            <h1 class="main-title">Amigo Secreto</h1>
+            <!--Imagen del encabezado. ⓘ-->
+            <img src="assets/amigo-secreto.png" alt="Imagen representativa de amigo secreto">
+        </header>
+        
+        <section class="input-section">
+            <!--Etiqueta de encabezado 1. ⓘ-->
+            <h2 class="section-title">Digite el nombre de sus amigos</h2>
+            <div class="input-wrapper">
+                <!--Campo de entrada para ingresar datos con "id" identificados. ⓘ-->
+                <input type="text" id="amigo" class="input-name" placeholder="Escribe un nombre">
+                <!--Botones de acciones "onclick" ejecuta funcion en JavaScript. ⓘ-->
+                <button class="button-add" onclick="agregarAmigo()">Añadir</button>
+            </div>
+           <!--Se crean las listas para gregar amigos y mostrar resultado del sorteo. ⓘ-->
+            <ul id="listaAmigos" class="name-list" aria-labelledby="listaAmigos" role="list"></ul>
+            <ul id="resultado" class="result-list" aria-live="polite"></ul>
+
+            <div class="button-container">
+                <!--Botones de acciones "onclick" ejecuta funcion en JavaScript. ⓘ-->
+                <button class="button-draw" onclick="sortearAmigo()" aria-label="Sortear amigo secreto">
+                    <img src="assets/play_circle_outline.png" alt="Ícono para sortear">Sortear amigo</button>
+            </div>
+        </section>
+    </main>
+    <!--Se ejecuta el archivo JavaScrip despues del DOM. ⓘ-->
+    <script src="app.js" defer></script>
+</body>
+<!-- ̨̣͕͉̫̜ͅÏ̗̮̪S̖̜͚͉̜̽͌R̞̟͌̊̾̋Ä̤́̂̚E̺̭̹͖͆̈͋̈́̈́͑̋͑͑ͅL̀ D̽Ä̤̝̦́̂̚ȚͬÄ̤́̂̚ ⓘ-->
+</html>
