@@ -2,7 +2,7 @@
 Autor: -工丂尺闩㠪㇄ ᗪ闩ㄒ闩-
 Creado: Agosto 2025.
 Versión: 1.0.0
-Descripción: Juego adivinar número secreto.
+Descripción: Juego sortear amigo secreto.
 Descargado de: https://github.com/israel-data
 ⓘ*/ 
 //ⓘ Crear variables para el entorno.
