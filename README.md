@@ -4,11 +4,13 @@
 
 -Fecha: Agosto 2025 
 
--Estado del proyecto: Version 1.0.0.
+-Estado del proyecto: Versión 1.0.0.
 
--Descripcion del Proyecto: Juego de desafio amigo secreto en JavaScript, HTML y CSS.
+-Descripción del Proyecto: Juego de desafío amigo secreto en JavaScript, HTML y CSS.
 
 -Para ejecutarlo: 
 ```Descargar todos los archivos y dar doble click en index.html```
+
+-Deja tus comentarios gracias.
 
 <!-- ̨̣͕͉̫̜ͅÏ̗̮̪S̖̜͚͉̜̽͌R̞̟͌̊̾̋Ä̤́̂̚E̺̭̹͖͆̈͋̈́̈́͑̋͑͑ͅL̀ D̽Ä̤̝̦́̂̚ȚͬÄ̤́̂̚ ⓘ-->
