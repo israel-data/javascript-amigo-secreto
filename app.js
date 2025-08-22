@@ -73,6 +73,7 @@ function sortearAmigo(){
     li.textContent= listaArreglo[nombreSorteado];
     //ⓘ Mostrar el nombre del amigo sorteado.
     document.getElementById('resultado').appendChild(li);
+    document.getElementById('juego').setAttribute('disabled', 'true');
     return;
 }
 
