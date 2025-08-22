@@ -75,7 +75,9 @@ function sortearAmigo(){
     document.getElementById('resultado').appendChild(li);
     document.getElementById('agregar').setAttribute('disabled', 'true');
     document.getElementById('sortear-boton').setAttribute('disabled', 'true');
-    document.setAttribute('h2').value('Reinicia Juego con F')
+    let titulo = document.getElementById('titulo2');
+    titulo.textContent='Recargar la pagina para volver a jugar.'
+    
     return;
 }
 
